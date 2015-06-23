@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/google_pressed"  android:state_pressed="true"/>
+    <item android:drawable="@color/google_unpressed"  />
+
+</selector><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/drawable/zalosdk_google.xml -->

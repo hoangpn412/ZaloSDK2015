@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="25dip"
+            android:background="@drawable/zalosdk_background_grey_stroke_grey_corner_4" >
+
+            <include
+                android:id="@+id/zalosdk_header_payment_info"
+                layout="@layout/zalosdk_header_payment_info" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zalosdk_header_payment_info"
+                android:layout_gravity="center_horizontal"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/payment_method_container" />
+
+                    <LinearLayout
+                        android:id="@+id/view_root"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="7dip" >
+
+                        <ToggleButton
+                            android:id="@+id/zalosdk_ok_ctl"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:background="@drawable/zalosdk_togglebutton_background"
+                            android:paddingBottom="10dip"
+                            android:paddingTop="10dip"
+                            android:textColor="#fff"
+                            android:textOff="@string/zalosdk_submit"
+                            android:textOn="@string/zalosdk_submit"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/zalosdk_exit_ctl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/i_close" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/layout/zalosdk_credit_card_amount.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/layout/zalosdk_credit_card_amount.xml -->

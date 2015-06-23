@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000" >
+
+    <com.zing.zalo.zalosdk.payment.direct.DynamicLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="25dip"
+            android:background="@drawable/zalosdk_background_grey_stroke_grey_corner_4" >
+
+            <include
+                android:id="@+id/zalosdk_header_payment_info"
+                layout="@layout/zalosdk_header_payment_info" />
+
+            <ScrollView
+                android:id="@+id/scrollView_atm_selector"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zalosdk_header_payment_info"
+                android:layout_gravity="center_horizontal"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/payment_method_container" />
+
+                    <LinearLayout
+                        android:id="@+id/view_root"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="7dip" >
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <LinearLayout
+                                android:id="@+id/zalosdk_card_selector_ctn_ctl"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dip"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <android.support.v4.view.ViewPager
+                                    android:id="@+id/zalosdk_pager_ctl"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="185dip"
+                                    android:background="#f1f3f8" />
+
+                                <LinearLayout
+                                    android:id="@+id/zalosdk_page_indicator_ctl"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="5dip"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/atm_pager_back"
+                                android:layout_width="24dp"
+                                android:layout_height="34dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:scaleType="fitCenter"
+                                android:padding="5dp"
+                                android:src="@drawable/i_back" />
+
+                            <ImageView
+                                android:id="@+id/atm_pager_next"
+                                android:layout_width="24dp"
+                                android:layout_height="34dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:padding="5dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/i_next" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="3dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="gone" >
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="1px"
+                                android:layout_weight="1"
+                                android:background="#d3d7e4" />
+
+                            <TextView
+                                android:id="@+id/holder_name_card"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Chưa chọn loại thẻ"
+                                android:textColor="#23A5C9" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="1px"
+                                android:layout_weight="1"
+                                android:background="#d3d7e4" />
+                        </LinearLayout>
+
+                        <ToggleButton
+                            android:id="@+id/zalosdk_ok_ctl"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dip"
+                            android:background="@drawable/zalosdk_togglebutton_background"
+                            android:paddingBottom="10dip"
+                            android:paddingTop="10dip"
+                            android:textColor="#fff"
+                            android:textOff="@string/zalosdk_submit"
+                            android:textOn="@string/zalosdk_submit"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/zalosdk_exit_ctl"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:paddingBottom="10dip"
+            android:src="@drawable/i_close" />
+    </com.zing.zalo.zalosdk.payment.direct.DynamicLayout>
+
+</RelativeLayout><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/layout/zalosdk_atm_card_selector.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/layout/zalosdk_atm_card_selector.xml -->

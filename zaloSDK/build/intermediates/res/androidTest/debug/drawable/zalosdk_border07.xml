@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"        
+        >
+        <shape 
+            android:shape="rectangle"             
+            >
+            <solid 
+                android:color="#23A5C9"
+                                />
+            
+            <stroke
+                android:width="2dp"
+                android:color="#23A5C9" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/drawable/zalosdk_border07.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/drawable/zalosdk_border07.xml -->

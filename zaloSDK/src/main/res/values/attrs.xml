@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZingMeLoginView">
+        
+    	<attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textStyle"/>
+        
+        <attr name="inputBackground" format="integer"/>  
+		<attr name="usernameHint" format="string"/>
+		<attr name="zingIdHint" format="string"/>
+		<attr name="passwordHint" format="string"/>
+		<attr name="buttonText" format="string"/>
+		<attr name="buttonBackground" format="integer"/>
+		
+   </declare-styleable>
+   
+   <declare-styleable name="LoginForm">
+        <attr name="guestLoginTitle" format="string"/>
+		<attr name="loginFormBackground" format="integer"/>
+   </declare-styleable>
+</resources>

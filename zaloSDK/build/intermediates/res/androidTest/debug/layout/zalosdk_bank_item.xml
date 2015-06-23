@@ -1,0 +1,29 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f1f3f8" 
+    >
+	<ImageView 
+	    android:id="@+id/zalosdk_bank_item"
+		android:layout_width="110dip"
+	   	android:layout_height="55dip"
+	    android:contentDescription="@string/zalosdk_app_name"
+	    android:scaleType="fitXY"
+	    android:padding="1dip"	  
+	    android:layout_margin="3dip"
+	/>
+	<ImageView 
+	    android:id="@+id/zalosdk_bank_item_checked"
+		android:layout_width="110dip"
+	   	android:layout_height="55dip"
+	    android:contentDescription="@string/zalosdk_app_name"
+	    android:scaleType="fitXY"
+	    android:padding="1dip"	  
+	    android:layout_margin="3dip"
+	    android:tag="check"
+	    android:visibility="gone"
+	/>
+</RelativeLayout>
+<!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/layout/zalosdk_bank_item.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/layout/zalosdk_bank_item.xml -->

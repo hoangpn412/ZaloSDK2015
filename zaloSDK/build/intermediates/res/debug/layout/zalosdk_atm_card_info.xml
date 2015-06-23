@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000" >
+
+    <com.zing.zalo.zalosdk.payment.direct.DynamicLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="25dip"
+            android:background="@drawable/zalosdk_background_grey_stroke_grey_corner_4" >
+
+            <include
+                android:id="@+id/zalosdk_header_payment_info"
+                layout="@layout/zalosdk_header_payment_info" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zalosdk_header_payment_info"
+                android:layout_gravity="center_horizontal"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/payment_method_container" />
+
+                    <include
+                        android:id="@+id/zalosdk_bank_selected"
+                        layout="@layout/zalosdk_bank_selected"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/view_root"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="7dip" >
+
+                        <LinearLayout
+                            android:id="@+id/autofill_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/zalosdk_border19"
+                                android:orientation="vertical"
+                                android:padding="7dp" >
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" >
+
+                                    <TextView
+                                        android:id="@+id/card_serial_number"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginRight="25dp"
+                                        android:ellipsize="end"
+                                        android:singleLine="true"
+                                        android:text="Mã thẻ: "
+                                        android:textColor="#292f33"
+                                        android:textSize="20sp" />
+
+                                    <ImageView
+                                        android:id="@+id/edit_card_manual"
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_centerVertical="true"
+                                        android:scaleType="fitCenter"
+                                        android:src="@drawable/i_edit" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:id="@+id/card_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="Tên chủ thẻ: "
+                                    android:textColor="#292f33" />
+
+                                <TextView
+                                    android:id="@+id/card_date_info"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="Ngày phát hành:"
+                                    android:textColor="#292f33"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                            <EditText
+                                android:id="@+id/fill_4_last_digit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/zalosdk_border06"
+                                android:hint="Nhập 4 số cuối mã thẻ"
+                                android:imeOptions="actionGo|flagNoExtractUi"
+                                android:maxLength="4"
+                                android:padding="10dp"
+                                android:singleLine="true"
+                                android:inputType="number"
+                                android:textColor="#292f33"
+                                android:textSize="15sp" />
+
+                            <EditText
+                                android:id="@+id/card_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/zalosdk_border06"
+                                android:hint="Nhập mật khẩu"
+                                android:imeOptions="actionGo|flagNoExtractUi"
+                                android:inputType="textPassword"
+                                android:maxLength="20"
+                                android:padding="10dp"
+                                android:singleLine="true"
+                                android:textColor="#292f33"
+                                android:textSize="15sp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/zalosdk_card_password_ctn_ctl"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <EditText
+                                android:id="@+id/card_password_ctl"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dip"
+                                android:background="@drawable/zalosdk_border06"
+                                android:hint="@string/zalosdk_card_password"
+                                android:imeOptions="actionGo|flagNoExtractUi"
+                                android:inputType="textPassword"
+                                android:maxLength="20"
+                                android:padding="10dip"
+                                android:singleLine="true"
+                                android:textColor="#292f33"
+                                android:textSize="15sp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/zalosdk_card_publish_date_ctn_ctl"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:orientation="horizontal"
+                            android:visibility="gone" >
+
+                            <TextView
+                                android:id="@+id/zalosdk_card_date_lb_ctl"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/zalosdk_atm_card_publish_date"
+                                android:textColor="#292f33" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:orientation="horizontal" >
+
+                                <EditText
+                                    android:id="@+id/zalosdk_month_ctl"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/zalosdk_border06"
+                                    android:hint="@string/zalosdk_month"
+                                    android:imeOptions="actionNext|flagNoExtractUi"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:padding="10dip"
+                                    android:singleLine="true"
+                                    android:textColor="#292f33"
+                                    android:textSize="13sp"
+                                    android:textStyle="italic" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:gravity="center"
+                                    android:padding="5dip"
+                                    android:text="@string/zalosdk_slash"
+                                    android:textSize="13sp" />
+
+                                <EditText
+                                    android:id="@+id/zalosdk_year_ctl"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/zalosdk_border06"
+                                    android:hint="@string/zalosdk_year"
+                                    android:imeOptions="actionGo|flagNoExtractUi"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:padding="10dip"
+                                    android:singleLine="true"
+                                    android:textColor="#292f33"
+                                    android:textSize="13sp"
+                                    android:textStyle="italic" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ToggleButton
+                            android:id="@+id/zalosdk_ok_ctl"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dip"
+                            android:background="@drawable/zalosdk_togglebutton_background"
+                            android:paddingBottom="10dip"
+                            android:paddingTop="10dip"
+                            android:textColor="#fff"
+                            android:textOff="@string/zalosdk_submit"
+                            android:textOn="@string/zalosdk_submit"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/zalosdk_exit_ctl"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:paddingBottom="10dip"
+            android:src="@drawable/i_close" />
+    </com.zing.zalo.zalosdk.payment.direct.DynamicLayout>
+
+</RelativeLayout><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/layout/zalosdk_atm_card_info.xml -->

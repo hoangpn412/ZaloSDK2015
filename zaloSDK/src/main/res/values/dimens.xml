@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="zalosdk_outer01">5dip</dimen>
+    <dimen name="zalosdk_outer02">2dip</dimen>
+    <dimen name="hint_y_offset">64dp</dimen>
+
+    <dimen name="crop_indicator_size">48dp</dimen>
+    
+    <dimen name="preview_margin">2dp</dimen>
+    <dimen name="shadow_margin">5dp</dimen>
+    <dimen name="crop_min_side">45dp</dimen>
+    <dimen name="crop_touch_tolerance">20dp</dimen>
+    <dimen name="wp_selector_dash_length">4dp</dimen>
+    <dimen name="wp_selector_off_length">4dp</dimen>
+</resources>

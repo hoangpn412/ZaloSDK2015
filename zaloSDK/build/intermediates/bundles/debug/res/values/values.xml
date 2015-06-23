@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/bools.xml -->
+    <eat-comment/>
+    <bool name="is_kitkat">false</bool>
+    <bool name="is_pre_kitkat">true</bool>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
+    <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
+    <color name="com_facebook_likebutton_text_color">#FFFFFF</color>
+    <color name="com_facebook_likeview_text_color">#6a7180</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="crop_shadow_color">#CF000000</color>
+    <color name="crop_shadow_wp_color">#4F000000</color>
+    <color name="crop_wp_markers">#7FFFFFFF</color>
+    <color name="default_screen_bg">#20324a</color>
+    <color name="fb_pressed">#D912337b</color>
+    <color name="fb_unpressed">#D91949AE</color>
+    <color name="google_pressed">#D9ff4105</color>
+    <color name="google_unpressed">#D9FF6E40</color>
+    <color name="guest_pressed">#D9d68308</color>
+    <color name="guest_unpressed">#D9F7A122</color>
+    <color name="light_gray_header_color">#dedede</color>
+    <color name="rounded_container_bg">#80000000</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="support_pressed">#ccc45800</color>
+    <color name="support_unpressed">#ccff7200</color>
+    <color name="text">#292f33</color>
+    <color name="title_grey">#dedede</color>
+    <color name="title_light_grey">#aaa</color>
+    <color name="zalo_pressed">#D90a6dbb</color>
+    <color name="zalo_unpressed">#D92196F3</color>
+    <color name="zalosdk_white">#fff</color>
+    <color name="zalosdk_zalo_blue">#05a3e5</color>
+    <color name="zing_pressed">#D90073a1</color>
+    <color name="zing_unpressed">#D9009ddc</color>
+    <declare-styleable name="LoginForm"><attr format="string" name="guestLoginTitle"/><attr format="integer" name="loginFormBackground"/></declare-styleable>
+    <declare-styleable name="ZingMeLoginView"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr format="integer" name="inputBackground"/><attr format="string" name="usernameHint"/><attr format="string" name="zingIdHint"/><attr format="string" name="passwordHint"/><attr format="string" name="buttonText"/><attr format="integer" name="buttonBackground"/></declare-styleable>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_likebutton_compound_drawable_padding">8dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_bottom">0dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_left">8dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_right">8dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_top">0dp</dimen>
+    <dimen name="com_facebook_likebutton_text_size">13.0sp</dimen>
+    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
+    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
+    <dimen name="com_facebook_likeview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="crop_indicator_size">48dp</dimen>
+    <dimen name="crop_min_side">45dp</dimen>
+    <dimen name="crop_touch_tolerance">20dp</dimen>
+    <dimen name="hint_y_offset">64dp</dimen>
+    <dimen name="preview_margin">2dp</dimen>
+    <dimen name="shadow_margin">5dp</dimen>
+    <dimen name="wp_selector_dash_length">4dp</dimen>
+    <dimen name="wp_selector_off_length">4dp</dimen>
+    <dimen name="zalosdk_outer01">5dip</dimen>
+    <dimen name="zalosdk_outer02">2dip</dimen>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add_account_button_label">Add new account</string>
+    <string name="app_name">ZaloSDK</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_zing_id">Zing ID</string>
+    <string name="title_activity_zing_card">ZingCardActivity</string>
+    <string name="zalosdk_15_000">15.000</string>
+    <string name="zalosdk_15_000_d">15.000 VNĐ</string>
+    <string name="zalosdk_1900_561_558">1900 561 558</string>
+    <string name="zalosdk_activity_payment">PaymentActivity</string>
+    <string name="zalosdk_amount_not_support">Không có kênh nào hỗ trợ mệnh giá thanh toán trên</string>
+    <string name="zalosdk_app_name"/>
+    <string name="zalosdk_atm_card_code">Mã số thẻ</string>
+    <string name="zalosdk_atm_card_ex">VD: 9704000000000000</string>
+    <string name="zalosdk_atm_card_holder_name">Tên chủ thẻ</string>
+    <string name="zalosdk_atm_card_holder_name_ex">VD: Nguyen Van A</string>
+    <string name="zalosdk_atm_card_publish_date">Ngày phát hành:</string>
+    <string name="zalosdk_atm_vcb_acc_name">Tên truy cập VCB-iB@nking</string>
+    <string name="zalosdk_atm_vcb_acc_name_ex">VD: 7111000A00</string>
+    <string name="zalosdk_atm_vcb_acc_password">Mật khẩu VCB-iB@nking</string>
+    <string name="zalosdk_atmacc">Tài khoản ATM nội địa</string>
+    <string name="zalosdk_billdes">Nạp điểm cho tài khoản Peter Pan</string>
+    <string name="zalosdk_billinfo">Thông tin đơn hàng</string>
+    <string name="zalosdk_billno">Mã đơn hàng</string>
+    <string name="zalosdk_cancel">Trở lại</string>
+    <string name="zalosdk_captchar_inputing">Nhập chuỗi kí tự bảo mật bên trên</string>
+    <string name="zalosdk_card_info">Thông tin thẻ</string>
+    <string name="zalosdk_card_password">Mật mã thẻ</string>
+    <string name="zalosdk_card_password_ex">******</string>
+    <string name="zalosdk_cardcode">Mật mã của thẻ</string>
+    <string name="zalosdk_cardseri">Số seri</string>
+    <string name="zalosdk_close">Đóng</string>
+    <string name="zalosdk_coin_unit"><u>VNĐ</u></string>
+    <string name="zalosdk_hotline">"Hotline: "</string>
+    <string name="zalosdk_lk_mbc48374652">lk_MBC48374652</string>
+    <string name="zalosdk_mobi">mobi</string>
+    <string name="zalosdk_mobile_card">Thẻ cào điện thoại</string>
+    <string name="zalosdk_mobileacc">Tài khoản điện thoại</string>
+    <string name="zalosdk_month">tháng</string>
+    <string name="zalosdk_no_internet">Mạng không ổn định, vui lòng thử lại sau</string>
+    <string name="zalosdk_notification">Thông báo</string>
+    <string name="zalosdk_ok">Đồng ý</string>
+    <string name="zalosdk_otp">Nhập mã OTP</string>
+    <string name="zalosdk_otp_note">"Tin nhắn chứa mã OTP đã được gửi đến số điện thoại "</string>
+    <string name="zalosdk_otp_note_atm">"Tin nhắn chứa mã OTP đã được gửi đến số điện thoại của bạn"</string>
+    <string name="zalosdk_pay">Thanh toán</string>
+    <string name="zalosdk_pay_amount">Số tiền cần nạp</string>
+    <string name="zalosdk_pay_info">Thông tin thanh toán</string>
+    <string name="zalosdk_payment_choosing">Chọn hình thức thanh toán</string>
+    <string name="zalosdk_peter_pan">Peter Pan</string>
+    <string name="zalosdk_phone_number">Số điện thoại</string>
+    <string name="zalosdk_price_choosing">Lựa chọn mức thanh toán (VNĐ)</string>
+    <string name="zalosdk_processing">Đang xử lý</string>
+    <string name="zalosdk_provider_info">Thông tin nhà cung cấp</string>
+    <string name="zalosdk_provider_name">Happy Dice (VNG Corp)</string>
+    <string name="zalosdk_select_bank">Chọn ngân hàng</string>
+    <string name="zalosdk_send">Tiếp tục</string>
+    <string name="zalosdk_slash">/</string>
+    <string name="zalosdk_submit">Đồng ý</string>
+    <string name="zalosdk_success">Giao dịch thành công</string>
+    <string name="zalosdk_time_out">Hết thời gian giao dịch</string>
+    <string name="zalosdk_unsuccess">Giao dịch thất bại</string>
+    <string name="zalosdk_user_phone">Thông tin thuê bao điện thoại</string>
+    <string name="zalosdk_viettel">viettel</string>
+    <string name="zalosdk_vina">vina</string>
+    <string name="zalosdk_year">năm</string>
+    <string name="zalosdk_zalo_acc">Tài khoản ví Zalo</string>
+    <string name="zalosdk_zingcard">Thẻ cào Zing</string>
+    <!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+</resources>

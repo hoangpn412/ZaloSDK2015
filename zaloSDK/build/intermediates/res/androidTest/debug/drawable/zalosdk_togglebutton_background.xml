@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/zalosdk_border15" android:state_checked="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/zalosdk_border15" android:state_checked="true" android:state_focused="false"/>
+    <item android:drawable="@drawable/zalosdk_border07" android:state_checked="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/zalosdk_border07" android:state_checked="false" android:state_focused="false"/>
+
+</selector><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/drawable/zalosdk_togglebutton_background.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/drawable/zalosdk_togglebutton_background.xml -->

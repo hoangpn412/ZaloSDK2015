@@ -1,0 +1,223 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From FacebookSDK:
+* .DS_Store
+* FacebookSDK.iml
+* build.gradle
+* build.xml
+From ZaloSDK:
+* .DS_Store
+* Mantifest.txt
+* ZaloSDK.iml
+* doc/
+* doc/allclasses-frame.html
+* doc/allclasses-noframe.html
+* doc/com/
+* doc/com/zing/
+* doc/com/zing/zalo/
+* doc/com/zing/zalo/zalosdk/
+* doc/com/zing/zalo/zalosdk/BuildConfig.html
+* doc/com/zing/zalo/zalosdk/R.attr.html
+* doc/com/zing/zalo/zalosdk/R.dimen.html
+* doc/com/zing/zalo/zalosdk/R.drawable.html
+* doc/com/zing/zalo/zalosdk/R.html
+* doc/com/zing/zalo/zalosdk/R.string.html
+* doc/com/zing/zalo/zalosdk/R.style.html
+* doc/com/zing/zalo/zalosdk/class-use/
+* doc/com/zing/zalo/zalosdk/class-use/BuildConfig.html
+* doc/com/zing/zalo/zalosdk/class-use/R.attr.html
+* doc/com/zing/zalo/zalosdk/class-use/R.dimen.html
+* doc/com/zing/zalo/zalosdk/class-use/R.drawable.html
+* doc/com/zing/zalo/zalosdk/class-use/R.html
+* doc/com/zing/zalo/zalosdk/class-use/R.string.html
+* doc/com/zing/zalo/zalosdk/class-use/R.style.html
+* doc/com/zing/zalo/zalosdk/http/
+* doc/com/zing/zalo/zalosdk/http/EasySSLSocketFactory.html
+* doc/com/zing/zalo/zalosdk/http/EasyX509TrustManager.html
+* doc/com/zing/zalo/zalosdk/http/HttpClientRequest.Type.html
+* doc/com/zing/zalo/zalosdk/http/HttpClientRequest.html
+* doc/com/zing/zalo/zalosdk/http/class-use/
+* doc/com/zing/zalo/zalosdk/http/class-use/EasySSLSocketFactory.html
+* doc/com/zing/zalo/zalosdk/http/class-use/EasyX509TrustManager.html
+* doc/com/zing/zalo/zalosdk/http/class-use/HttpClientRequest.Type.html
+* doc/com/zing/zalo/zalosdk/http/class-use/HttpClientRequest.html
+* doc/com/zing/zalo/zalosdk/http/package-frame.html
+* doc/com/zing/zalo/zalosdk/http/package-summary.html
+* doc/com/zing/zalo/zalosdk/http/package-tree.html
+* doc/com/zing/zalo/zalosdk/http/package-use.html
+* doc/com/zing/zalo/zalosdk/oauth/
+* doc/com/zing/zalo/zalosdk/oauth/Const.html
+* doc/com/zing/zalo/zalosdk/oauth/InitializedException.html
+* doc/com/zing/zalo/zalosdk/oauth/LocalizedString.html
+* doc/com/zing/zalo/zalosdk/oauth/MyLifecycleHandler.html
+* doc/com/zing/zalo/zalosdk/oauth/OAuthCompleteListener.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloOAuth.LoginVia.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloOAuth.Permissions.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloOAuth.ValidateOAuthCodeCallback.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloOAuth.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloOAuthResultCode.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloQueryService.ResultCallback.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloQueryService.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloSDKApplication.html
+* doc/com/zing/zalo/zalosdk/oauth/ZaloWebLoginGateway.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/
+* doc/com/zing/zalo/zalosdk/oauth/class-use/Const.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/InitializedException.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/LocalizedString.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/MyLifecycleHandler.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/OAuthCompleteListener.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloOAuth.LoginVia.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloOAuth.Permissions.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloOAuth.ValidateOAuthCodeCallback.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloOAuth.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloOAuthResultCode.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloQueryService.ResultCallback.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloQueryService.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloSDKApplication.html
+* doc/com/zing/zalo/zalosdk/oauth/class-use/ZaloWebLoginGateway.html
+* doc/com/zing/zalo/zalosdk/oauth/common/
+* doc/com/zing/zalo/zalosdk/oauth/common/Const.html
+* doc/com/zing/zalo/zalosdk/oauth/common/OAuthCompleteListener.html
+* doc/com/zing/zalo/zalosdk/oauth/common/PackageUtils.html
+* doc/com/zing/zalo/zalosdk/oauth/common/class-use/
+* doc/com/zing/zalo/zalosdk/oauth/common/class-use/Const.html
+* doc/com/zing/zalo/zalosdk/oauth/common/class-use/OAuthCompleteListener.html
+* doc/com/zing/zalo/zalosdk/oauth/common/class-use/PackageUtils.html
+* doc/com/zing/zalo/zalosdk/oauth/common/package-frame.html
+* doc/com/zing/zalo/zalosdk/oauth/common/package-summary.html
+* doc/com/zing/zalo/zalosdk/oauth/common/package-tree.html
+* doc/com/zing/zalo/zalosdk/oauth/common/package-use.html
+* doc/com/zing/zalo/zalosdk/oauth/package-frame.html
+* doc/com/zing/zalo/zalosdk/oauth/package-summary.html
+* doc/com/zing/zalo/zalosdk/oauth/package-tree.html
+* doc/com/zing/zalo/zalosdk/oauth/package-use.html
+* doc/com/zing/zalo/zalosdk/package-frame.html
+* doc/com/zing/zalo/zalosdk/package-summary.html
+* doc/com/zing/zalo/zalosdk/package-tree.html
+* doc/com/zing/zalo/zalosdk/package-use.html
+* doc/com/zing/zalo/zalosdk/session/
+* doc/com/zing/zalo/zalosdk/session/Session.html
+* doc/com/zing/zalo/zalosdk/session/SessionDataSource.html
+* doc/com/zing/zalo/zalosdk/session/SessionSQLiteHelper.html
+* doc/com/zing/zalo/zalosdk/session/class-use/
+* doc/com/zing/zalo/zalosdk/session/class-use/Session.html
+* doc/com/zing/zalo/zalosdk/session/class-use/SessionDataSource.html
+* doc/com/zing/zalo/zalosdk/session/class-use/SessionSQLiteHelper.html
+* doc/com/zing/zalo/zalosdk/session/package-frame.html
+* doc/com/zing/zalo/zalosdk/session/package-summary.html
+* doc/com/zing/zalo/zalosdk/session/package-tree.html
+* doc/com/zing/zalo/zalosdk/session/package-use.html
+* doc/com/zing/zalo/zalosdk/util/
+* doc/com/zing/zalo/zalosdk/util/Log.html
+* doc/com/zing/zalo/zalosdk/util/class-use/
+* doc/com/zing/zalo/zalosdk/util/class-use/Log.html
+* doc/com/zing/zalo/zalosdk/util/package-frame.html
+* doc/com/zing/zalo/zalosdk/util/package-summary.html
+* doc/com/zing/zalo/zalosdk/util/package-tree.html
+* doc/com/zing/zalo/zalosdk/util/package-use.html
+* doc/constant-values.html
+* doc/deprecated-list.html
+* doc/help-doc.html
+* doc/index-files/
+* doc/index-files/index-1.html
+* doc/index-files/index-10.html
+* doc/index-files/index-11.html
+* doc/index-files/index-12.html
+* doc/index-files/index-13.html
+* doc/index-files/index-14.html
+* doc/index-files/index-15.html
+* doc/index-files/index-16.html
+* doc/index-files/index-17.html
+* doc/index-files/index-18.html
+* doc/index-files/index-19.html
+* doc/index-files/index-2.html
+* doc/index-files/index-20.html
+* doc/index-files/index-3.html
+* doc/index-files/index-4.html
+* doc/index-files/index-5.html
+* doc/index-files/index-6.html
+* doc/index-files/index-7.html
+* doc/index-files/index-8.html
+* doc/index-files/index-9.html
+* doc/index.html
+* doc/overview-frame.html
+* doc/overview-summary.html
+* doc/overview-tree.html
+* doc/package-list
+* doc/resources/
+* doc/resources/background.gif
+* doc/resources/tab.gif
+* doc/resources/titlebar.gif
+* doc/resources/titlebar_end.gif
+* doc/serialized-form.html
+* doc/stylesheet.css
+* ic_launcher-web.png
+* javadoc.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In FacebookSDK:
+* AndroidManifest.xml => facebookSDK/src/main/AndroidManifest.xml
+* assets/ => facebookSDK/src/main/assets
+* libs/bolts-android-1.1.2.jar => facebookSDK/libs/bolts-android-1.1.2.jar
+* res/ => facebookSDK/src/main/res/
+* src/ => facebookSDK/src/main/java/
+In ZaloSDK:
+* AndroidManifest.xml => zaloSDK/src/main/AndroidManifest.xml
+* assets/ => zaloSDK/src/main/assets
+* libs/ZaloPaymentSdk_1_7_528.jar => zaloSDK/libs/ZaloPaymentSdk_1_7_528.jar
+* libs/dom4j-1.6.1.jar => zaloSDK/libs/dom4j-1.6.1.jar
+* libs/jaxen-1.1.6.jar => zaloSDK/libs/jaxen-1.1.6.jar
+* res/ => zaloSDK/src/main/res/
+* src/ => zaloSDK/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

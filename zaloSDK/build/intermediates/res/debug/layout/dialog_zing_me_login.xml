@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+    
+    <com.zing.zalo.zalosdk.oauth.ZingMeLoginView
+        android:layout_gravity="center"
+        android:id="@+id/zing_me_login_view" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2b579a"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        custom:usernameHint="Tên đăng nhập" 
+        custom:passwordHint="Mật khẩu"    
+        custom:buttonText="Đăng nhập"          
+        custom:inputBackground="@drawable/zalosdk_border06"
+        custom:buttonBackground="@drawable/zalosdk_border07"
+        />
+</LinearLayout>
+<!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/layout/dialog_zing_me_login.xml -->

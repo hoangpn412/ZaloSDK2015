@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ZaloPaymentSdk_1_7_528">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zaloSDK/libs/ZaloPaymentSdk_1_7_528.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

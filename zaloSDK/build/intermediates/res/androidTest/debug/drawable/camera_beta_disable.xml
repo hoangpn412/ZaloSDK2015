@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/first_image">
+        <shape android:shape="rectangle" >
+            <solid android:color="#B0D2E1" />
+
+            <stroke
+                android:width="2dip"
+                android:color="#B0D2E1" />
+        </shape>
+
+    </item>
+
+
+</layer-list><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/drawable/camera_beta_disable.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/drawable/camera_beta_disable.xml -->

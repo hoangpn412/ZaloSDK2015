@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="zalosdk_zalo_blue">#05a3e5</color>
+    <color name="title_grey">#dedede</color>
+    <color name="title_light_grey">#aaa</color>
+    <color name="zalosdk_white">#fff</color>
+    <color name="default_screen_bg">#20324a</color>
+    <color name="rounded_container_bg">#80000000</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#dedede</color>
+	<color name="text">#292f33</color>
+	
+	<color name="crop_shadow_color">#CF000000</color>
+    <color name="crop_shadow_wp_color">#4F000000</color>
+    <color name="crop_wp_markers">#7FFFFFFF</color>
+    
+    <color name="zalo_unpressed">#D92196F3</color>
+    <color name="zalo_pressed">#D90a6dbb</color>
+    
+    <color name="fb_unpressed">#D91949AE</color>
+    <color name="fb_pressed">#D912337b</color>
+    
+    <color name="google_unpressed">#D9FF6E40</color>
+    <color name="google_pressed">#D9ff4105</color>
+    
+    <color name="zing_unpressed">#D9009ddc</color>
+    <color name="zing_pressed">#D90073a1</color>
+    
+    <color name="guest_unpressed">#D9F7A122</color>
+    <color name="guest_pressed">#D9d68308</color>
+    
+    <color name="support_unpressed">#ccff7200</color>
+    <color name="support_pressed">#ccc45800</color>
+   
+    
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    
+</resources>

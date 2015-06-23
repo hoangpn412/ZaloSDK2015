@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/request_certificate_guest"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/zalosdk_zing"
+        android:text="Bảo vệ tài khoản người chơi"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/recovery_guest"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/request_certificate_guest"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/zalosdk_zing"
+        android:padding="5dp"
+        android:text="Khôi phục tài khoản người chơi"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/register_identify_number"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/recovery_guest"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/zalosdk_zing"
+        android:padding="5dp"
+        android:text="Khai báo số CMND"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/custom_service"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/register_identify_number"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/zalosdk_zing"
+        android:padding="5dp"
+        android:text="Chăm sóc khách hàng"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/back_login_form_from_support"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="195dp" >
+
+        <TextView
+            android:id="@+id/tt_back_form1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Quay về trước"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/tt_back_form1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/zalo_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="197dp"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+</RelativeLayout>

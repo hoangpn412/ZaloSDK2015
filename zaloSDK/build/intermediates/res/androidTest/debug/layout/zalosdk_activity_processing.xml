@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/zalosdk_process_dialog_ctl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/zalosdk_border10"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dip"
+    tools:context=".PaymentGatewayActivity" >
+
+    <TextView
+        android:id="@+id/zalosdk_message_ctl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxWidth="200dip"
+        android:minWidth="150dip"
+        android:text="@string/zalosdk_processing"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/zalosdk_status_ctl"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_margin="5dip"
+        android:contentDescription="@string/zalosdk_app_name"
+        android:src="@drawable/zalosdk_ic_success"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/zalosdk_indicator_ctl"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_margin="5dip"
+        android:indeterminate="true" />
+
+</LinearLayout><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/src/main/res/layout/zalosdk_activity_processing.xml --><!-- From: file:/Users/Sami/Downloads/ZaloSDK-Android-v1/ZaloSDK1/zaloSDK/build/intermediates/bundles/debug/res/layout/zalosdk_activity_processing.xml -->
